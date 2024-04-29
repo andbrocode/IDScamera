@@ -23,7 +23,7 @@ Information by IDS is provided here: https://en.ids-imaging.com/files/downloads/
 9) Go to the directory of the unpacked archive of 3) and run:  sudo ./ueye_4.96.1.2054_armhf.run
 
 This should have ideally installed the drivers of the IDS suite. The daemons should run as active: 
-USB: sudo systemctl status ueyeusbdrc  (for camera via USB)
+USB: <code> sudo systemctl status ueyeusbdrc </code> (for camera via USB)
 ETH: sudo systemctl status ueyeethdrc  (for camera via ETH)
 
 To test it, one can run:  ueyedemo  or ueyesetid
