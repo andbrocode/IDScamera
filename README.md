@@ -5,7 +5,7 @@ Run IDS camera with RaspberryPi4 (image with Debian Bookworm 32bit)
 
 Information by IDS is provided here: https://en.ids-imaging.com/files/downloads/ids-software-suite/readme/ueye-linux-embedded-readme-49200_EN.html#system-requirements
 
-1) Download SDK package from IDS ( https://en.ids-imaging.com/download-details/AB00514.html ):  ids-software-suite-linux-armhf-4.96.1-archive.tgz
+1) Download SDK package from IDS ( https://en.ids-imaging.com/download-details/AB00514.html ):  ids-software-suite-linux-armhf-4.96.1-archive.tgz <br>
    (you will need to create an account at IDS for this)
 
 3) Unpack the archive:  <code> tar -xvf ids-software-suite-linux-armhf-4.96.1-archive.tgz  </code>
