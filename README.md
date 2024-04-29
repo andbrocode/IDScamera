@@ -15,9 +15,9 @@ Information by IDS is provided here: https://en.ids-imaging.com/files/downloads/
     <code> sudo apt install libgomp1 udev libpng-dev libjpeg-dev libopenblas0 libomp5  </code> <br>
     <code> sudo apt install libc6 libstdc++6 libqt5widgets5 libqt5gui5 libqt5opengl5 libqt5concurrent5 build-essential libcap2 libusb-1.0-0 libqt5xml5 libqt5network5  </code>
    
-6) Install pip3 for python3:  sudo apt install python3-pip
+6) Install pip3 for python3: <code>  sudo apt install python3-pip </code> 
 
-7) Move the unrequired file:  sudo mv /usr/lib/python3.11/EXTERNALLY-MANAGED ~/Downloads/
+7) Move the unrequired file:  <code> sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED </code>
 
 8) Install python packages:  <code> pip3 install pyueye numpy  </code>
 
