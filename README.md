@@ -1,11 +1,11 @@
 # IDScamera
-Run IDS camera with RaspberryPi4
+Run IDS camera with RaspberryPi4 (image with Debian Bookworm 32bit)
 
 
 
 Information by IDS is provided here: https://en.ids-imaging.com/files/downloads/ids-software-suite/readme/ueye-linux-embedded-readme-49200_EN.html#system-requirements
 
-1) Download SDK package from IDS ( https://en.ids-imaging.com/download-details/AB00514.html ):  ids-software-suite-linux-arm64-4.96.1-archive.tgz
+1) Download SDK package from IDS ( https://en.ids-imaging.com/download-details/AB00514.html ):  ids-software-suite-linux-armhf-4.96.1-archive.tgz
    (you will need to create an account at IDS for this)
 
 3) Unpack the archive:  tar -xvf ids-software-suite-linux-armhf-4.96.1-archive.tgz
@@ -20,7 +20,13 @@ Information by IDS is provided here: https://en.ids-imaging.com/files/downloads/
 
 8) Install python packages:  pip3 install pyueye numpy
 
-9) Go to the directory of the unpacked archive of 3) and run:  sudo ./ueye_4.96.1.2054_arm64.run
+9) Go to the directory of the unpacked archive of 3) and run:  sudo ./ueye_4.96.1.2054_armhf.run
 
-10) 
+This should have ideally installed the drivers of the IDS suite. The daemons should run as active: 
+USB: sudo systemctl status ueyeusbdrc  (for camera via USB)
+ETH: sudo systemctl status ueyeethdrc  (for camera via ETH)
+
+To test it, one can run:  ueyedemo  or ueyesetid
+
+To uninstall run:   sudo ueyesetup -u all
     
