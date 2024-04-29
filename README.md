@@ -36,5 +36,5 @@ To uninstall run:   <code> sudo ueyesetup -u all  </code>
 The ids camera should now be reckognized and operational. With a screen one can use <code> ueyedemo </code> to see a live stream of the camera with a GUI.
 
 To take a snapshot with python with use the script: <code> ueye_screenshot.py </code>
-This script takes a snapshot of the camera stream and stores it as a .png image file at:  ** ./images/<date>/<date>_<time>.png **
+This script takes a snapshot of the camera stream and stores it as a .png image file at:  ** ./images/>date</>date<_>time<.png **
 Using a simple cronjob turns this into a automatic snapshot routine.
